@@ -8,8 +8,38 @@
     padding-top: 50px;
 }
 
+#productContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+    gap: 20px;
+    .box {
+        width: 100%;
+        height: auto;
+    }
+}
+
 .box {
     width: 25%;
     height: 25%;
 }
+}
+
+@media (min-width: 400px) {
+    .buttonContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        
+    }
+    
+    .inputContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p {
+            margin-right: 20px;
+            margin-top: 7px;
+        }
+    }
 }
