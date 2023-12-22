@@ -1,27 +1,27 @@
-// // Customer interface / data
-// while (true) {
-//     let answer = prompt ("Hello, would you like a customized alerts?").toLowerCase();
-//     if (answer === "yes") {
-//         let customerName = prompt ("Amazing! Please enter your name")
-//         let customerEmail = prompt ("And your email")
+// Customer interface / data
+while (true) {
+    let answer = prompt ("Hello, would you like a customized alerts?").toLowerCase();
+    if (answer === "yes") {
+        let customerName = prompt ("Amazing! Please enter your name")
+        let customerEmail = prompt ("And your email")
 
-//         let customerInterests = [];
+        let customerInterests = [];
 
-//         for (let i = 0; i < 3; i++){
-//             let customerInterest = prompt("Almost done, what are you into? (we'll take three topics, one at a time)");
-//             customerInterests.push(customerInterest);
-//         }
-//         alert(`You've got great taste ${customerName} ;) We'll be sure to email you at ${customerEmail} if we have new or discounted merch with the topics ${customerInterests.join(`, `)}. Happy shopping!`);
-//         break;
-//     }
-//     else if (answer === "no") {
-//         alert("Okay, enjoy our fun and freaky merch!");
-//         break;
-//     }
-//     else {
-//         alert("please enter yes or no");
-//     }
-// }
+        for (let i = 0; i < 3; i++){
+            let customerInterest = prompt("Almost done, what are you into? (we'll take three topics, one at a time)");
+            customerInterests.push(customerInterest);
+        }
+        alert(`You've got great taste ${customerName} ;) We'll be sure to email you at ${customerEmail} if we have new or discounted merch with the topics ${customerInterests.join(`, `)}. Happy shopping!`);
+        break;
+    }
+    else if (answer === "no") {
+        alert("Okay, enjoy our fun and freaky merch!");
+        break;
+    }
+    else {
+        alert("please enter yes or no");
+    }
+}
 
 
 // Product info
@@ -231,16 +231,16 @@ function sale(id, quantity) {
 
 
 
-// //testing search functions
-// searchBySize ("L");
+//testing search functions
+searchBySize ("L");
 
-// searchByTag ("X-MEN");
+searchByTag ("X-MEN");
 
-// searchByType ("ART");
+searchByType ("ART");
 
-// searchById ("A1NA");
+searchById ("A1NA");
 
-// searchById ("t1XS");
+searchById ("t1XS");
 
 
 //test sale function
