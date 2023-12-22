@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.box {
+    width: 25%;
+    height: 25%;
+}
+}
